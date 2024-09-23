@@ -1,0 +1,288 @@
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+html,
+body {
+   height: 100%;
+   line-height: 1;
+}
+
+body {
+   font-family: Jura;
+   font-size: 20px;
+   color: #000000;
+   background-color: #f4fbff;
+}
+
+.wrapper {
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+.main {
+   flex: 1 1 auto;
+}
+
+/*=================================== */
+
+[class*="__container"] {
+   width: 1230px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+/* ================================== */
+
+.active {
+   text-decoration: underline;
+}
+
+/* ================================== */
+
+.header__head {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+}
+
+.head__logo img {
+   width: 80px;
+}
+
+.head ul {
+   display: flex;
+   justify-content: space-between;
+   width: 600px;
+}
+
+.head__menu a:hover{
+   text-decoration: underline;
+}
+
+.sub {
+   text-align: center;
+   border-bottom: 2px solid #000000;
+}
+
+.sub__text {
+   margin: 80px;
+   font-size: 50px;
+   font-weight: 700;
+}
+
+.sub__button {
+   margin-bottom: 80px;
+   padding: 12px 20px;
+   font-size: 18px;
+   font-family: Jura;
+   font-weight: 600;
+   color: #fff;
+   background-color: rgb(84, 84, 211);
+   border-radius: 20px;
+   transition: all 0.3s ease-in;
+}
+
+.sub__button:hover {
+   background-color: rgb(48, 48, 161);
+}
+
+/* ========================================= */
+
+.main {
+   margin-top: 40px;
+   margin-bottom: 50px;
+}
+
+.info {
+   display: flex;
+}
+
+.info__gif img{
+   margin-right: 50px;
+   width: 300px;
+}
+
+.desc__title {
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+
+.desc__text {
+   font-size: 25px;
+   text-align: justify;
+   line-height: 1.2;
+}
+
+/* ============== INVERTIONS =================*/
+
+.item {
+   display: flex;
+   margin-top: 50px;
+   align-items: center;
+}
+
+.item:first-child {
+   margin-top: 0;
+}
+
+.item img {
+   width: 250px;
+   /* height: 250px; */
+   margin-right: 40px;
+}
+
+.description {
+   flex: 1;
+}
+
+.description h2 {
+   font-size: 30px;
+}
+
+.description p {
+   margin-top: 20px;
+   text-align: justify;
+}
+
+.more-content {
+   display: none;
+ }
+
+ #show-more:checked + .more-content {
+   display: block;
+ }
+
+ .button-container {
+   text-align: center;
+   margin: 20px 0;
+ }
+
+ .show-more-btn {
+   padding: 10px 20px;
+   background-color: #333;
+   color: white;
+   border: none;
+   cursor: pointer;
+   font-size: 16px;
+   border-radius: 5px;
+   text-transform: uppercase;
+ }
+
+ .show-more-btn:hover {
+   background-color: #555;
+ }
+
+ #show-more {
+   display: none;
+ }
+
+/* ================CONTACTS================= */
+
+.contacts__title {
+   text-align: center;
+   font-size: 30px;
+   margin-bottom: 30px;
+   font-weight: 700;
+}
+
+.contacts__p {
+   text-align: center;
+}
+
+.contact__info {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 30px;
+}
+
+.contact__info div {
+   text-align: center;
+   line-height: 1.2;
+}
+
+.contact__i{
+   display: flex;
+   justify-content: center;
+}
+
+.contact__i h3{
+   padding-left: 10px;
+}
+
+/* ============NEWS======================= */
+
+.news__title{
+   text-align: center;
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+
+.news__item {
+   margin-bottom: 30px;
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 20px;
+}
+
+.news__item h2 {
+   color: #444;
+   font-size: 25px;
+}
+
+.news__item p {
+   color: #666;
+   line-height: 1.6;
+   text-align: justify;
+}
+
+.news__item time {
+   color: #999;
+   font-size: 16px;
+}
+
+/* ========================================= */
+
+.footer {
+   height: 100px;
+   background-color: rgb(48, 48, 161);
+}
+
+.footer__text {
+   color: #fff;
+   font-size: 25px;
+   text-align: center;
+   margin-top: 40px;
+}
+
